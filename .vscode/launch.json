@@ -12,6 +12,14 @@
             "webRoot": "${workspaceFolder}"
         },
         {
+            "name": "Firefox",
+            "request": "launch",
+            "type": "firefox",
+            "reAttach": true,
+            "url": "http://localhost:8080",
+            "file": "${workspaceFolder}"
+        },
+        {
             "name": "CV-App",
             "request": "launch",
             "type": "dart"
